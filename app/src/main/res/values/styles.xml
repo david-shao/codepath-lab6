@@ -86,4 +86,40 @@
     <!-- Define your own styles below. -->
     <!-- =============================================================== -->
 
+    <style name="page_background_orge">
+        <item name="android:background">@drawable/orange_red_gradient_background</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_padding</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_padding</item>
+    </style>
+
+    <style name="red_background_wh">
+        <item name="android:background">@android:drawable/dialog_holo_dark_frame</item>
+        <item name="android:layout_marginTop">@dimen/card_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/card_margin_top</item>
+        <item name="android:padding">@dimen/white_background_padding</item>
+    </style>
+
+    <style name="text_subheader_og">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">@dimen/text_subheader_text_size</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:shadowColor">#FFFFFF</item>
+    </style>
+
+    <style name="text_large_og">
+        <item name="android:textColor">@android:color/background_light</item>
+        <item name="android:textSize">@dimen/text_large_text_size</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:shadowColor">#888</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">@dimen/text_large_margin_top</item>
+    </style>
+
+    <style name="text_regular_og">
+        <item name="android:textColor">@android:color/background_light</item>
+        <item name="android:textSize">@dimen/text_regular_text_size</item>
+    </style>
+
 </resources>
